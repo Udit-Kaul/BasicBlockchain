@@ -15,8 +15,8 @@ class Blockchain:
         self.chain.append(block)
         return block
     def get_previous_block(self):
-        return self.chain[-1]
-   
+     return self.chain[-1]
+    
    # This function is to check if the proof of work mined is valid 
     def proof_of_work(self, previous_proof):
         new_proof =1
